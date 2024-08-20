@@ -9,7 +9,7 @@ void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
   testWidgets('Simple integration hello test', (WidgetTester tester) async {
     Get.put(NameController());
-    await tester.pumpWidget(MyApp());
+    await tester.pumpWidget(const MyApp());
 
     await tester.pump();
 

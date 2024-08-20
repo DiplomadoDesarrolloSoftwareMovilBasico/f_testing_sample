@@ -5,7 +5,7 @@ class Bin2Dec extends StatefulWidget {
   const Bin2Dec({Key? key}) : super(key: key);
 
   @override
-  _State createState() => _State();
+  State<Bin2Dec> createState() => _State();
 }
 
 class _State extends State<Bin2Dec> {

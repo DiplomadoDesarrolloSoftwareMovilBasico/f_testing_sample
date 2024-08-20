@@ -6,7 +6,7 @@ class Converter extends StatefulWidget {
   const Converter({Key? key}) : super(key: key);
 
   @override
-  _ConverterState createState() => _ConverterState();
+  State<Converter> createState() => _ConverterState();
 }
 
 class _ConverterState extends State<Converter> {

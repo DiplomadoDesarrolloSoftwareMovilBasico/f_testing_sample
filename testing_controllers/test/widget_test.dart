@@ -11,7 +11,7 @@ import 'package:testing_controllers/ui/hello.dart';
 class MockNameController extends GetxService
     with Mock
     implements NameController {
-  var _name = 'NAME'.obs;
+  final _name = 'NAME'.obs;
 
   @override
   String get name => _name.value;

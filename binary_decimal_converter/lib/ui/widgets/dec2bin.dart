@@ -5,7 +5,7 @@ class Dec2Bin extends StatefulWidget {
   const Dec2Bin({Key? key}) : super(key: key);
 
   @override
-  _State createState() => _State();
+  State<Dec2Bin> createState() => _State();
 }
 
 class _State extends State<Dec2Bin> {

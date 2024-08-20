@@ -34,7 +34,7 @@ class _HelloState extends State<Hello> {
       padding: const EdgeInsets.all(8.0),
       child:
           Column(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
-        Text('Testing demo', style: Theme.of(context).textTheme.headline4),
+        Text('Testing demo', style: Theme.of(context).textTheme.headlineMedium),
         Row(
           children: [
             Flexible(
@@ -56,7 +56,7 @@ class _HelloState extends State<Hello> {
           ],
         ),
         Obx(() => Text('Hello ${nameController.name}',
-            style: Theme.of(context).textTheme.headline4))
+            style: Theme.of(context).textTheme.headlineMedium))
       ]),
     );
   }

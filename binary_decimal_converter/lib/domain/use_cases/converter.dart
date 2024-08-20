@@ -1,11 +1,10 @@
 class Converter {
-  
   static String adjustValue(String oldValue, int newDigit) {
     String newValue;
     if (oldValue == "0") {
       newValue = "$newDigit";
     } else {
-      newValue = oldValue + "$newDigit";
+      newValue = "$oldValue$newDigit";
     }
     return newValue;
   }

@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 class NameController extends GetxController {
-  var _name = 'N/A'.obs;
+  final _name = 'N/A'.obs;
 
   String get name => _name.value;
 
